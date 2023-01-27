@@ -15,6 +15,7 @@ class Products {
       element.textContent = this.labelAdd;
     }
 
+    headerPage.render(products.length);
   }
 
   render() {

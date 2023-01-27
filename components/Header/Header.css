@@ -1,0 +1,16 @@
+.header-container {
+  height: var(--header-height);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-header-bg);
+  padding: var(--spacing-medium);
+}
+
+.header-count {
+  margin-left: auto;
+  cursor: pointer;
+}
