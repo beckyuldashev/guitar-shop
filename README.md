@@ -3,3 +3,5 @@
 [Demo](https://beckyuldashev.github.io/sneakers-shop/)
 
 [Beck](https://vk.com/beckyuldashev)
+
+![preview](./img/preview.jpg "Превью проекта")
