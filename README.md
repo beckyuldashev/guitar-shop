@@ -4,4 +4,4 @@
 
 [Beck](https://vk.com/beckyuldashev)
 
-![preview](img/preview.jpg "Превью проекта")
+![preview](./img/preview.png "Превью проекта")
