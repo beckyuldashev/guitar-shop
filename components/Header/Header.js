@@ -2,7 +2,7 @@ class Header {
   render(count) {
     let html = `
       <header class="header-container">
-        <div class="header-count">✨ ${count}</div>
+        <div class="header-count" onclick="shoppingPage.render()">✨ ${count}</div>
       </header>
     `;
 
