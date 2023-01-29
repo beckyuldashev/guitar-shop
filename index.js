@@ -20,5 +20,6 @@ getData(url)
     render();
   })
   .catch(err => {
-    console.log(err);
+    spinnerPage.handleSpinnerRemove();
+    errorNotificationPage.render();
   });
