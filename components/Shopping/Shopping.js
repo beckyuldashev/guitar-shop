@@ -16,9 +16,8 @@ class Shopping {
             <td class="shopping-element__price">${price.toLocaleString()}₽</td>
           </tr>
         `;
+        sum += price;
       }
-
-      sum += price;
     });
 
     let html = `

@@ -9,11 +9,14 @@ function render() {
 
 function getData(url) {
   return fetch(url).then(res => res.json());
-} 
+}
+
+spinnerPage.render();
 
 getData(url)
   .then(data => {
     CATALOG = data;
+    spinnerPage.handleSpinnerRemove();
     render();
   })
   .catch(err => {
